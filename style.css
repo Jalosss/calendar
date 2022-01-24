@@ -1,0 +1,174 @@
+body {
+	background-image: url(back.jpg);
+	color: black;
+	font-family: Inconsalata;
+	text-align: center;
+}
+
+#cont {
+	width: 562px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+#rok {
+	background-color: rgb(255, 255, 255, 0.3);
+	width: 401px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	font-weight: 900;
+	font-size: 29px;
+}
+
+#miesiac {
+	background-color: rgb(255, 255, 255, 0.3);
+	width: 401px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	font-weight: 900;
+	font-size: 29px;
+}
+
+#dni_tyg {
+	background-color: rgb(255, 255, 255, 0.3);
+	width: 560px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 900;
+	font-size: 29px;
+}
+
+#dni {
+	font-weight: 900;
+	background-color: rgb(255, 255, 255, 0.3);
+	overflow: auto;
+	width: 560px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tydz {
+	min-width: 80px;
+	min-height: 30px;
+	float: left;
+}
+
+.day {
+	width: 78px;
+	height: 54px;
+	text-align: center;
+	padding: 1px;
+	margin: 1px;
+	border: 1px solid gray;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(227, 242, 253, 0.3);
+	font-size: 24px;
+	font-weight: 500;
+	cursor: pointer;
+	font-style: italic;
+
+}
+
+.day_empty {
+	width: 74px;
+	height: 50px;
+	text-align: center;
+	padding: 1px;
+	margin: 1px;
+	border: 1px solid gray;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(227, 242, 253, 0.3);
+}
+
+.day:hover {
+	background-color: rgba(94, 182, 245, 0.3);
+}
+
+.prev {
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background-color: rgb(255, 255, 255, 0.3);
+	font-weight: 900;
+	font-size: 29px;
+}
+
+.next {
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background-color: rgb(255, 255, 255, 0.3);
+	font-weight: 900;
+	font-size: 29px;
+}
+
+.struktura {
+	font-size: 24px;
+	margin: 0 auto;
+	width: 562px;
+	min-height: calc(100% + 400px);
+	background-color: rgb(255, 255, 255, 0.7);
+	border-radius: 30px;
+}
+
+.godz {
+	width: 150px;
+	margin: 5px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight: 700;
+}
+
+.tresc {
+	width: 412px;
+	padding: 15px;
+	border-bottom: 1px solid black;
+	text-align: justify;
+}
+
+h3 {
+	margin-bottom: 0px;
+}
+
+.dodanie {
+	background-color: rgb(255, 255, 255, 0.7);
+	font-size: 29px;
+	display: inline;
+	border-radius: 30px;
+	padding: 15px;
+	margin-top: 30px;
+}
